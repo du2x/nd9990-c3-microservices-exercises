@@ -1,0 +1,23 @@
+{
+    "configurations": [
+
+        {
+            "name": "Launch via NPM",
+            "envFile": "${workspaceFolder}/.env",
+            "request": "launch",
+            "runtimeArgs": [
+                "run",
+                "dev",
+                "--prefix"
+                "udagram-api-feed"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+
+    ]
+
+}
